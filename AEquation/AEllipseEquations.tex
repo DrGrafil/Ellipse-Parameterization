@@ -1,16 +1,19 @@
 \documentclass[border=10pt]{standalone}
 \usepackage[thinlines]{easytable}
 \usepackage{amsmath}
+\usepackage{graphicx}
+\newcommand{\TabPar}[1]{\scalebox{3}{$#1$}}
+\newcommand{\TabVar}[1]{\scalebox{2}{$#1$}}
 \begin{document}
 
-\begin{TAB}(e,.1cm,.1cm){c|cccccc}{c|cccccc}
-$a$ 		& $a$ 								& $b$ 										& $c$ 																	& $e$ 													& $\ell$ 											& $p$ \\
-$a$ 		& $-$ 								& $-$ 										& $-$ 																	& $-$ 													& $-$ 											& $-$ \\
-$b$ 		& $-$ 								& $-$ 										& $-$ 																	& $-$ 													& $-$ 											& $-$ \\
-$c$ 		& $-$ 								& $\sqrt{b^2 + c^2}$ 					& $-$ 																	& $-$ 													& $-$ 														& $-$ \\
-$e$ 		& $-$									& $\dfrac{b}{\sqrt{1 - e^2}}$ 		& $\dfrac{c}{e}$ 														& $-$ 													& $-$ 												& $-$ \\
-$\ell$ 	& $-$ 								& $\dfrac{b^2}{\ell}$ 					& $\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$ 						& $\dfrac{\ell}{1 - e^2}$ 							& $-$ 			& $-$ \\
-$p$ 		& $-$ 								& $b\sqrt{1+\dfrac{b^2}{p^2}}$ 	& $\sqrt{cp + c^2}$ 												& $\dfrac{ep}{1-e^2}$ 								& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ 			& $-$
+\begin{TAB}(e,1cm,1cm){c|cccccc}{c|cccccc}
+\TabPar{a} 		& \TabVar{a}				& \TabVar{b} 							& \TabVar{c} 										& \TabVar{e} 					& \TabVar{\ell} 						& \TabVar{p} \\
+\TabVar{a} 		& $-$						& $-$ 									& $-$ 												& $-$ 							& $-$ 									& $-$ \\
+\TabVar{b} 		& $-$						& $-$ 									& $\sqrt{b^2 + c^2}$ 								& $\dfrac{b}{\sqrt{1 - e^2}}$ 	& $\dfrac{b^2}{\ell}$ 					& $b\sqrt{1+\dfrac{b^2}{p^2}}$ \\
+\TabVar{c} 		& $-$						& $\sqrt{b^2 + c^2}$ 					& $-$ 												& $\dfrac{c}{e}$  				& $\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$ 	& $\sqrt{cp + c^2}$ \\
+\TabVar{e} 		& $-$						& $\dfrac{b}{\sqrt{1 - e^2}}$ 			& $\dfrac{c}{e}$ 									& $-$ 							& $\dfrac{\ell}{1 - e^2}$ 				& $\dfrac{ep}{1-e^2}$ \\
+\TabVar{\ell} 	& $-$						& $\dfrac{b^2}{\ell}$ 					& $\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$ 				& $\dfrac{\ell}{1 - e^2}$ 		& $-$ 									& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ \\
+\TabVar{p} 		& $-$ 						& $b\sqrt{1+\dfrac{b^2}{p^2}}$ 			& $\sqrt{cp + c^2}$ 								& $\dfrac{ep}{1-e^2}$ 			& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ & $-$
 \end{TAB}
 \end{document}
 
