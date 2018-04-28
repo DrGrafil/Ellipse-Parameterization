@@ -2,18 +2,19 @@
 \usepackage[thinlines]{easytable}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\newcommand{\TabPar}[1]{\scalebox{3}{$#1$}}
-\newcommand{\TabVar}[1]{\scalebox{2}{$#1$}}
+\newcommand{\TabPar}[1]{\scalebox{2}{$#1$}}
+\newcommand{\TabVar}[1]{\scalebox{1.5}{$#1$}}
+\newcommand{\tm}[1]{\scriptsize{#1}} %tiny math size
 \begin{document}
-%\dfrac{ep}{1-e^2}
-\begin{TAB}(e,1cm,1cm){c|cccccc}{c|cccccc}
-\TabPar{e} 		& \TabVar{a}								& \TabVar{b} 						& \TabVar{c} 									& \TabVar{e} 					& \TabVar{\ell} 									& \TabVar{p} \\
-\TabVar{a} 		& $-$									& $\sqrt{1 -\dfrac{b^2}{a^2}}$ 		& $\dfrac{c}{a}$ 								& $-$ 							& $\sqrt{1 - \dfrac{\ell}{a}}$ 					& $\dfrac{-p + \sqrt{4 a^2 + p^2}}{2 a}$ \\
-\TabVar{b} 		& $\sqrt{1 -\dfrac{b^2}{a^2}}$			& $-$ 								& $\dfrac{c}{\sqrt{b^2 + c^2}}$ 					& $-$ 							& $\sqrt{1 -\dfrac{\ell^2}{b^2}}$ 				& $\dfrac{b}{\sqrt{b^2 + p^2}}$ \\
-\TabVar{c} 		& $\dfrac{c}{a}$							& $\dfrac{c}{\sqrt{b^2 + c^2}}$ 		& $-$ 											& $-$  							& $\dfrac{-\ell + \sqrt{4 c^2 + \ell^2}}{2 c}$ 	& $\sqrt{\dfrac{c}{c + p}}$ \\
-\TabVar{e} 		& $-$									& $-$ 								& $-$ 											& $-$ 							& $-$ 											& $-$ \\
-\TabVar{\ell} 	& $\sqrt{1 - \dfrac{\ell}{a}}$			& $\sqrt{1 -\dfrac{\ell^2}{b^2}}$ 	& $\dfrac{-\ell + \sqrt{4 c^2 + \ell^2}}{2 c}$ 	& $-$ 							& $-$ 											& $\dfrac{\ell}{p}$ \\
-\TabVar{p} 		& $\dfrac{-p + \sqrt{4 a^2 + p^2}}{2 a}$ & $\dfrac{b}{\sqrt{b^2 + p^2}}$		& $\sqrt{\dfrac{c}{c + p}}$ 							& $-$ 							& $\dfrac{\ell}{p}$ 								& $-$
+\Large
+\begin{TAB}(e,2.5cm,2.5cm){c|cccccc}{c|cccccc}
+\TabPar{e} 		& \TabVar{a}										& \TabVar{b} 						& \TabVar{c} 										& \TabVar{e} 					& \TabVar{\ell} 										& \TabVar{p} \\
+\TabVar{a} 		& $-$											& $\sqrt{1 -\dfrac{b^2}{a^2}}$ 		& $\dfrac{c}{a}$ 									& $-$ 							& $\sqrt{1 - \dfrac{\ell}{a}}$ 						& \tm{$\dfrac{-p + \sqrt{4 a^2 + p^2}}{2 a}$} \\
+\TabVar{b} 		& $\sqrt{1 -\dfrac{b^2}{a^2}}$					& $-$ 								& $\dfrac{c}{\sqrt{b^2 + c^2}}$ 						& $-$ 							& $\sqrt{1 -\dfrac{\ell^2}{b^2}}$ 					& $\dfrac{b}{\sqrt{b^2 + p^2}}$ \\
+\TabVar{c} 		& $\dfrac{c}{a}$									& $\dfrac{c}{\sqrt{b^2 + c^2}}$ 		& $-$ 												& $-$  							& \tm{$\dfrac{-\ell + \sqrt{4 c^2 + \ell^2}}{2 c}$} 	& $\sqrt{\dfrac{c}{c + p}}$ \\
+\TabVar{e} 		& $-$											& $-$ 								& $-$ 												& $-$ 							& $-$ 												& $-$ \\
+\TabVar{\ell} 	& $\sqrt{1 - \dfrac{\ell}{a}}$					& $\sqrt{1 -\dfrac{\ell^2}{b^2}}$ 	& \tm{$\dfrac{-\ell + \sqrt{4 c^2 + \ell^2}}{2 c}$} 	& $-$ 							& $-$ 												& $\dfrac{\ell}{p}$ \\
+\TabVar{p} 		& \tm{$\dfrac{-p + \sqrt{4 a^2 + p^2}}{2 a}$} 	& $\dfrac{b}{\sqrt{b^2 + p^2}}$		& $\sqrt{\dfrac{c}{c + p}}$ 							& $-$ 							& $\dfrac{\ell}{p}$ 									& $-$
 \end{TAB}
 \end{document}
 

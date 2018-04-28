@@ -2,19 +2,19 @@
 \usepackage[thinlines]{easytable}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\newcommand{\TabPar}[1]{\scalebox{3}{$#1$}}
-\newcommand{\TabVar}[1]{\scalebox{2}{$#1$}}
-\newcommand{\seq}[1]{\scalebox{.5}{#1}}
+\newcommand{\TabPar}[1]{\scalebox{2}{$#1$}}
+\newcommand{\TabVar}[1]{\scalebox{1.5}{$#1$}}
+\newcommand{\tm}[1]{\tiny{#1}} %tiny math size
 \begin{document}
-%\dfrac{ep}{1-e^2}
-\begin{TAB}(e,1cm,1cm){c|cccccc}{c|cccccc}
-\TabPar{\ell} 		& \TabVar{a}								& \TabVar{b} 							& \TabVar{c} 								& \TabVar{e} 					& \TabVar{\ell} 						& \TabVar{p} \\
-\TabVar{a} 		& $-$										& $\dfrac{b^2}{a}$ 						& $\dfrac{a^2 - c^2}{a}$ 					& $a(1-e^2)$ 					& $-$ 								& $\dfrac{-p^2 +\sqrt{4a^2p^2 + p^4}}{2 a}$ \\
-\TabVar{b} 		& $\dfrac{b^2}{a}$							& $-$ 									& $\dfrac{b^2}{\sqrt{b^2 + c^2}}$ 			& $b\sqrt{1 - e^2}$ 				& $-$ 								& $\dfrac{b p}{\sqrt{b^2 + p^2}}$ \\
-\TabVar{c} 		& $\dfrac{a^2 - c^2}{a}$						& $\dfrac{b^2}{\sqrt{b^2 + c^2}}$ 		& $-$ 										& $\dfrac{c}{e}(1 - e^2)$  		& $-$ 								& $\sqrt{\dfrac{c p^2}{c + p}}$ \\
-\TabVar{e} 		& $a(1-e^2)$									& $b\sqrt{1 - e^2}$ 						& $\dfrac{c}{e}(1 - e^2)$ 					& $-$ 							& $-$ 								& $e p$ \\
-\TabVar{\ell} 	& $-$										& $-$ 									& $-$ 										& $-$ 							& $-$ 								& $-$ \\
-\TabVar{p} 		& $\dfrac{-p^2 +\sqrt{4a^2p^2 + p^4}}{2 a}$ 	& $\dfrac{b p}{\sqrt{b^2 + p^2}}$		& $\sqrt{\dfrac{c p^2}{c + p}}$ 				& $e p$ 							& $-$ 								& $-$
+\Large
+\begin{TAB}(e,2.5cm,2.5cm){c|cccccc}{c|cccccc}
+\TabPar{\ell} 		& \TabVar{a}									& \TabVar{b} 							& \TabVar{c} 								& \TabVar{e} 					& \TabVar{\ell} 						& \TabVar{p} \\
+\TabVar{a} 		& $-$											& $\dfrac{b^2}{a}$ 						& $\dfrac{a^2 - c^2}{a}$ 					& $a(1-e^2)$ 					& $-$ 								& \tm{$\dfrac{-p^2 +\sqrt{4a^2p^2 + p^4}}{2 a}$} \\
+\TabVar{b} 		& $\dfrac{b^2}{a}$								& $-$ 									& $\dfrac{b^2}{\sqrt{b^2 + c^2}}$ 			& $b\sqrt{1 - e^2}$ 				& $-$ 								& $\dfrac{b p}{\sqrt{b^2 + p^2}}$ \\
+\TabVar{c} 		& $\dfrac{a^2 - c^2}{a}$							& $\dfrac{b^2}{\sqrt{b^2 + c^2}}$ 		& $-$ 										& $\dfrac{c}{e}(1 - e^2)$  		& $-$ 								& $\sqrt{\dfrac{c p^2}{c + p}}$ \\
+\TabVar{e} 		& $a(1-e^2)$										& $b\sqrt{1 - e^2}$ 						& $\dfrac{c}{e}(1 - e^2)$ 					& $-$ 							& $-$ 								& $e p$ \\
+\TabVar{\ell} 	& $-$											& $-$ 									& $-$ 										& $-$ 							& $-$ 								& $-$ \\
+\TabVar{p} 		& \tm{$\dfrac{-p^2 +\sqrt{4a^2p^2 + p^4}}{2 a}$} 	& $\dfrac{b p}{\sqrt{b^2 + p^2}}$		& $\sqrt{\dfrac{c p^2}{c + p}}$ 				& $e p$ 							& $-$ 								& $-$
 \end{TAB}
 \end{document}
 

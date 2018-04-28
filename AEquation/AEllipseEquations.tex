@@ -2,18 +2,19 @@
 \usepackage[thinlines]{easytable}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\newcommand{\TabPar}[1]{\scalebox{3}{$#1$}}
-\newcommand{\TabVar}[1]{\scalebox{2}{$#1$}}
+\newcommand{\TabPar}[1]{\scalebox{2}{$#1$}}
+\newcommand{\TabVar}[1]{\scalebox{1.5}{$#1$}}
+\newcommand{\tm}[1]{\scriptsize{#1}} %tiny math size
 \begin{document}
-
-\begin{TAB}(e,3.25cm,3.25cm){c|cccccc}{c|cccccc}
+\Large
+\begin{TAB}(e,2.5cm,2.5cm){c|cccccc}{c|cccccc}
 \TabPar{a} 		& \TabVar{a}				& \TabVar{b} 							& \TabVar{c} 										& \TabVar{e} 					& \TabVar{\ell} 						& \TabVar{p} \\
 \TabVar{a} 		& $-$						& $-$ 									& $-$ 												& $-$ 							& $-$ 									& $-$ \\
 \TabVar{b} 		& $-$						& $-$ 									& $\sqrt{b^2 + c^2}$ 								& $\dfrac{b}{\sqrt{1 - e^2}}$ 	& $\dfrac{b^2}{\ell}$ 					& $b\sqrt{1+\dfrac{b^2}{p^2}}$ \\
-\TabVar{c} 		& $-$						& $\sqrt{b^2 + c^2}$ 					& $-$ 												& $\dfrac{c}{e}$  				& $\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$ 	& $\sqrt{cp + c^2}$ \\
+\TabVar{c} 		& $-$						& $\sqrt{b^2 + c^2}$ 					& $-$ 												& $\dfrac{c}{e}$  				& \tm{$\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$} 	& $\sqrt{cp + c^2}$ \\
 \TabVar{e} 		& $-$						& $\dfrac{b}{\sqrt{1 - e^2}}$ 			& $\dfrac{c}{e}$ 									& $-$ 							& $\dfrac{\ell}{1 - e^2}$ 				& $\dfrac{ep}{1-e^2}$ \\
-\TabVar{\ell} 	& $-$						& $\dfrac{b^2}{\ell}$ 					& $\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$ 				& $\dfrac{\ell}{1 - e^2}$ 		& $-$ 									& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ \\
-\TabVar{p} 		& $-$ 						& $b\sqrt{1+\dfrac{b^2}{p^2}}$ 			& $\sqrt{cp + c^2}$ 								& $\dfrac{ep}{1-e^2}$ 			& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ & $-$
+\TabVar{\ell} 	& $-$						& $\dfrac{b^2}{\ell}$ 					& \tm{$\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$} 		& $\dfrac{\ell}{1 - e^2}$ 		& $-$ 									& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ \\
+\TabVar{p} 		& $-$ 						& $b\sqrt{1+\dfrac{b^2}{p^2}}$ 			& $\sqrt{cp + c^2}$ 									& $\dfrac{ep}{1-e^2}$ 			& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ & $-$
 \end{TAB}
 \end{document}
 
