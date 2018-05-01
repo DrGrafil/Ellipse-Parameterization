@@ -5,17 +5,18 @@
 \newcommand{\TabPar}[1]{\scalebox{2}{$#1$}}
 \newcommand{\TabVar}[1]{\scalebox{1.5}{$#1$}}
 \newcommand{\tm}[1]{\scriptsize{#1}} %tiny math size
+\newcommand{\tmm}[1]{\tiny{#1}} %tiny math size
 \begin{document}
 \Large
-\begin{TAB}(e,2.5cm,2.5cm){c|ccccccc}{c|ccccccc}
-\TabPar{a} 		& \TabVar{a}				& \TabVar{b} 							& \TabVar{c} 										& \TabVar{e} 					& \TabVar{\ell} 						& \TabVar{p} 								& \TabVar{x} \\
-\TabVar{a} 		& $-$						& $-$ 									& $-$ 												& $-$ 							& $-$ 									& $-$ 										& $-$\\
-\TabVar{b} 		& $-$						& $-$ 									& $\sqrt{b^2 + c^2}$ 								& $\dfrac{b}{\sqrt{1 - e^2}}$ 	& $\dfrac{b^2}{\ell}$ 					& $b\sqrt{1+\dfrac{b^2}{p^2}}$ 				& $-$\\
-\TabVar{c} 		& $-$						& $\sqrt{b^2 + c^2}$ 					& $-$ 												& $\dfrac{c}{e}$  				& \tm{$\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$} 	& $\sqrt{cp + c^2}$ 				& $-$\\
-\TabVar{e} 		& $-$						& $\dfrac{b}{\sqrt{1 - e^2}}$ 			& $\dfrac{c}{e}$ 									& $-$ 							& $\dfrac{\ell}{1 - e^2}$ 				& $\dfrac{ep}{1-e^2}$ 						& $-$\\
-\TabVar{\ell} 	& $-$						& $\dfrac{b^2}{\ell}$ 					& \tm{$\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$} 		& $\dfrac{\ell}{1 - e^2}$ 		& $-$ 									& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ 	& $-$\\
-\TabVar{p} 		& $-$ 						& $b\sqrt{1+\dfrac{b^2}{p^2}}$ 			& $\sqrt{cp + c^2}$ 								& $\dfrac{ep}{1-e^2}$ 			& $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$ & $-$										& $-$\\
-\TabVar{x} 		& $-$						& $-$									& $-$												& $-$							& $-$									& $-$										& $-$
+\begin{TAB}(e,2.6cm,2.6cm){c|ccccccc}{c|ccccccc}
+\TabPar{a} 		& \TabVar{a}     & \TabVar{b}                                                     & \TabVar{c}                                       & \TabVar{d}                                                      & \TabVar{e}                   & \TabVar{\ell}                                  & \TabVar{p}\\                               
+\TabVar{a} 		& $-$            & $-$                                                            & $-$                                              & $-$                                                             & $-$                          & $-$                                            & $-$\\
+\TabVar{b} 		& $-$            & $-$                                                            & $\sqrt{b^2 + c^2}$                               & \tmm{$\sqrt{\dfrac{d^2 + \sqrt{-4 b^2 d^2 + d^4}}{2}}$}         & $\dfrac{b}{\sqrt{1 - e^2}}$  & $\dfrac{b^2}{\ell}$                            & $b\sqrt{1+\dfrac{b^2}{p^2}}$\\
+\TabVar{c} 		& $-$            & $\sqrt{b^2 + c^2}$                                             & $-$                                              & $\sqrt{c d}$                                                    & $\dfrac{c}{e}$               & \tm{$\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$}      & $\sqrt{cp + c^2}$\\
+\TabVar{d} 		& $-$            & \tmm{$\sqrt{\dfrac{d^2 + \sqrt{-4 b^2 d^2 + d^4}}{2}}$}        & $\sqrt{c d}$                                     & $-$                                                             & $d e$                        & \Huge{$\dagger$}                               & $\sqrt{d^2- dp}$\\
+\TabVar{e} 		& $-$            & $\dfrac{b}{\sqrt{1 - e^2}}$                                    & $\dfrac{c}{e}$                                   & $d e$                                                           & $-$                          & $\dfrac{\ell}{1 - e^2}$                        & $\dfrac{ep}{1-e^2}$\\
+\TabVar{\ell} 	& $-$            & $\dfrac{b^2}{\ell}$                                            & \tm{$\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2}$}        & \Huge{$\dagger$}                                                & $\dfrac{\ell}{1 - e^2}$      & $-$                                            & $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$\\
+\TabVar{p} 		& $-$            & $b\sqrt{1+\dfrac{b^2}{p^2}}$                                   & $\sqrt{cp + c^2}$                                & $\sqrt{d^2- dp}$                                                & $\dfrac{ep}{1-e^2}$          & $\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}}$          & $-$                                      
 \end{TAB}
 \end{document}
 

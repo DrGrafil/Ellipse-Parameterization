@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{bm}
@@ -27,10 +28,10 @@ This document tabulates the equations needed to deduce any of the seven common p
 \item[$\boldsymbol{a}$] Semi-Major Axis. The length from the center of the ellipse to the farthest point on the curve.
 \item[$\boldsymbol{b}$] Semi-Minor Axis. The length from the center of the ellipse to the nearest point on the curve.
 \item[$\boldsymbol{c}$] Linear eccentricity. The length from the center of the ellipse to one of its foci.
+\item[$\boldsymbol{x}$] Directrix (distance). The distance along the major axis from the center of the ellipse at which the directrix line lies. Sometimes denoted as $x$ or $y$. In special cases it is the equation for the directrix line.
 \item[$\boldsymbol{e}$] Eccentricity. Measurement of deviation from being circular. Sometimes denoted as $\epsilon$. Can be confuse with flattening that shares the symbol $\epsilon$.
 \item[$\boldsymbol{\ell}$] Semi-Latus Rectum. The length of a line segment that begins at the focus and makes contact with the ellipse. It is perpendicular to the major axis.
 \item[$\boldsymbol{p}$] Focal parameter. The length from one of the two foci to the nearest directrix.
-\item[$\boldsymbol{x}$] Directrix (distance). The distance along the major axis from the center of the ellipse at which the directrix line lies. Sometimes denoted as $d$ or $y$. In special cases it is the equation for the directrix line. 
 \end{description}
 
 \section*{Other Useful Relations \& Terminology}
@@ -46,7 +47,22 @@ This document tabulates the equations needed to deduce any of the seven common p
 For the parameter of interest go to the page labeled with the parameters name. 
 The first row and column are labeled with different variables. 
 Select a row and column based on what information you already have. 
-The equation that is displayed in the intersection is the function used to derived the parameter given the two variables.    
+The equation that is displayed in the intersection is the function used to derived the parameter given the two variables. 
+
+\section*{$\dagger$ Note On Directrix, $d$, and Semi-Latus Rectum, $\ell$, Equations}
+To solve for the parameters of an ellipse in terms of the Semi-Latus Rectum, $\ell$, and Directrix, $d$ require solving a cubic function in all cases. For example in the case of linear eccentricity, $c$, the roots of the following equation needs to be found:
+\begin{align*} % the "starred" equation environments produce no equation numbers
+c^3-2c^2 d+c d^2-d \ell^2 = 0 
+\end{align*}
+Solving using the normal general solution to the cubic equation gives a piecewise solution that is daunting to calculate. The results would span longer than the page in some cases.
+Using a trigonometric cubic solution provides a much more manageable solution. However it gives a piecewise solution:
+\begin{align*} 
+c =\begin{cases}
+ &  \dfrac{2d}{3}  \left (1 + \text{sin} \left (\frac{\text{arcsin}\left (1 - \frac{27 \ell^2}{2 d^2}\right )}{3} \right ) \right )\\ 
+ & \dfrac{4d}{3}  \text{sin}^2 \left (\frac{\text{arccos}\left (1 - \frac{27 \ell^2}{2 d^2}\right )}{6} \right )
+\end{cases}   
+\end{align*}
+While much more simplified than the general solution, the domain when given as a function of both $d$ and $\ell$ 
 \newpage
 
 \section*{\centering{Semi-Major Axis}}
