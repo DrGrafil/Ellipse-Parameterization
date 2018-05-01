@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  1 MAY 2018 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  1 MAY 2018 14:05
 entering extended mode
 **./main.tex
 (main.tex
@@ -295,42 +295,42 @@ Package pdftex.def Info: ./CEquation/CEllipseEquations.pdf  used on input line
 Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
 e 84.
  [5 <./CEquation/CEllipseEquations.pdf>]
-<./EEquation/EEllipseEquations.pdf, id=164, pagebox=cropbox, 589.75533pt x 589.
+<./DEquation/DEllipseEquations.pdf, id=164, pagebox=cropbox, 612.51834pt x 612.
+51834pt>
+File: ./DEquation/DEllipseEquations.pdf Graphic file (type pdf)
+<use ./DEquation/DEllipseEquations.pdf>
+Package pdftex.def Info: ./DEquation/DEllipseEquations.pdf  used on input line 
+90. on input line 90.
+Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
+e 90.
+ [6 <./DEquation/DEllipseEquations.pdf>]
+<./EEquation/EEllipseEquations.pdf, id=199, pagebox=cropbox, 589.75533pt x 589.
 75533pt>
 File: ./EEquation/EEllipseEquations.pdf Graphic file (type pdf)
 <use ./EEquation/EEllipseEquations.pdf>
 Package pdftex.def Info: ./EEquation/EEllipseEquations.pdf  used on input line 
-90. on input line 90.
+97. on input line 97.
 Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
-e 90.
- [6 <./EEquation/EEllipseEquations.pdf>]
-<./LEquation/LEllipseEquations.pdf, id=199, pagebox=cropbox, 589.75533pt x 589.
+e 97.
+ [7 <./EEquation/EEllipseEquations.pdf>]
+<./LEquation/LEllipseEquations.pdf, id=235, pagebox=cropbox, 589.75533pt x 589.
 75533pt>
 File: ./LEquation/LEllipseEquations.pdf Graphic file (type pdf)
 <use ./LEquation/LEllipseEquations.pdf>
 Package pdftex.def Info: ./LEquation/LEllipseEquations.pdf  used on input line 
-96. on input line 96.
+103. on input line 103.
 Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
-e 96.
- [7 <./LEquation/LEllipseEquations.pdf>]
-<./PEquation/PEllipseEquations.pdf, id=232, pagebox=cropbox, 589.75533pt x 589.
+e 103.
+ [8 <./LEquation/LEllipseEquations.pdf>]
+<./PEquation/PEllipseEquations.pdf, id=267, pagebox=cropbox, 589.75533pt x 589.
 75533pt>
 File: ./PEquation/PEllipseEquations.pdf Graphic file (type pdf)
 <use ./PEquation/PEllipseEquations.pdf>
 Package pdftex.def Info: ./PEquation/PEllipseEquations.pdf  used on input line 
-102. on input line 102.
+109. on input line 109.
 Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
-e 102.
-<./XEquation/XEllipseEquations.pdf, id=233, pagebox=cropbox, 589.75533pt x 589.
-75533pt>
-File: ./XEquation/XEllipseEquations.pdf Graphic file (type pdf)
-<use ./XEquation/XEllipseEquations.pdf>
-Package pdftex.def Info: ./XEquation/XEllipseEquations.pdf  used on input line 
-107. on input line 107.
-Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
-e 107.
- [8 <./PEquation/PEllipseEquations.pdf>] [9 <./XEquation/XEllipseEquations.pdf>
-] (main.aux) ) 
+e 109.
+ [9 <./PEquation/PEllipseEquations.pdf>] (main.aux) ) 
 Here is how much of TeX's memory you used:
  2736 strings out of 493312
  38003 string characters out of 3138899
@@ -339,25 +339,25 @@ Here is how much of TeX's memory you used:
  15386 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,32p,287b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (9 pages, 233706 bytes).
+<C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (9 pages, 238677 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
+ 339 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

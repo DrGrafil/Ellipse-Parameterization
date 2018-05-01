@@ -6,17 +6,18 @@
 \newcommand{\TabVar}[1]{\scalebox{1.5}{$#1$}}
 \newcommand{\tm}[1]{\scriptsize{#1}} %tiny math size
 \newcommand{\tmm}[1]{\tiny{#1}} %tiny math size
+\newcommand{\spp}{\!+\!}
 \begin{document}
 \Large
 \begin{TAB}(e,2.6cm,2.6cm){c|ccccccc}{c|ccccccc}
-\TabPar{d} 		& \TabVar{a}				& \TabVar{b} 							& \TabVar{c} 								& \TabVar{d} 					& \TabVar{e} 				& \TabVar{\ell}				& \TabVar{p} \\
-\TabVar{a} 		& $-$						& $-$ 								& $-$ 										& $-$ 							& $-$ 								& $-$ 						& $-$\\
-\TabVar{b} 		& $-$						& $-$ 								& $-$ 										& $-$ 							& $-$ 								& $-$						& $-$\\
-\TabVar{c} 		& $-$						& $-$ 								& $-$ 										& $-$  							& $-$ 								& $-$ 						& $-$\\
-\TabVar{d} 		& $-$						& $-$ 								& $-$ 										& $-$ 							& $-$ 								& $-$ 						& $-$\\
-\TabVar{e} 	& $-$						& $-$ 								& $-$ 										& $-$ 							& $-$ 								& $-$ 						& $-$\\
-\TabVar{\ell} 		& $-$ 						& $-$					 			& $-$ 										& $-$ 							& $-$ 								& $-$						& $-$\\
-\TabVar{p} 		& $-$ 						& $-$					 			& $-$ 										& $-$ 							& $-$ 								& $-$						& $-$
+\TabPar{d} 		& \TabVar{a}                                 & \TabVar{b}                                         & \TabVar{c}                                                                  & \TabVar{d}                     & \TabVar{e}                                            & \TabVar{\ell}                                                                & \TabVar{p} \\
+\TabVar{a} 		& $-$                                        & $\dfrac{a^2}{\sqrt{a^2-b^2}}$                      & $\dfrac{a^2}{c}$                                                            & $-$                            & $\dfrac{a}{e}$                                        & $\sqrt{\dfrac{a^3}{a - \ell}}$                                               & \tm{$\dfrac{p + \sqrt{4 a^2 + p^2}}{2}$}\\
+\TabVar{b} 		& $\dfrac{a^2}{\sqrt{a^2-b^2}}$              & $-$                                                & $\dfrac{b^2+c^2}{c}$                                                        & $-$                            & $\sqrt{\dfrac{b^2}{e^2 - e^4}}$                       & $\dfrac{b^3}{\ell \sqrt{b^2 - \ell^2}}$                                      & $\dfrac{b^2+p^2}{p}$\\
+\TabVar{c} 		& $\dfrac{a^2}{c}$                           & $\dfrac{b^2+c^2}{c}$                               & $-$                                                                         & $-$                            & $\dfrac{c}{e^2}$                                      & \tmm{$\dfrac{2c^2 \spp \ell^2 \spp \sqrt{4\ell^2 c^2 \spp \ell^4}}{2c}$}     & $c + p$\\
+\TabVar{d} 		& $-$                                        & $-$                                                & $-$                                                                         & $-$                            & $-$                                                   & $-$                                                                          & $-$\\
+\TabVar{e} 	    & $\dfrac{a}{e}$                             & $\sqrt{\dfrac{b^2}{e^2 - e^4}}$                    & $\dfrac{c}{e^2}$                                                            & $-$                            & $-$                                                   & $\dfrac{\ell}{e - e^3}$                                                      & $\dfrac{p}{1 - e^2}$\\
+\TabVar{\ell} 	& $\sqrt{\dfrac{a^3}{a - \ell}}$             & $\dfrac{b^3}{\ell \sqrt{b^2 - \ell^2}}$            & \tmm{$\dfrac{2c^2 \spp \ell^2 \spp \sqrt{4\ell^2 c^2 \spp \ell^4}}{2c}$}    & $-$                            & $\dfrac{\ell}{e - e^3}$                               & $-$                                                                          & $\dfrac{p^3}{p^2 - \ell}$\\
+\TabVar{p} 		& \tm{$\dfrac{p + \sqrt{4 a^2 + p^2}}{2}$}   & $\dfrac{b^2+p^2}{p}$                               & $c + p$                                                                     & $-$                            & $\dfrac{p}{1 - e^2}$                                  & $\dfrac{p^3}{p^2 - \ell}$                                                    & $-$
 \end{TAB}
 \end{document}
 
