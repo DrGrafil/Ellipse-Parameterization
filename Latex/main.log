@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  2 MAY 2018 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  2 MAY 2018 12:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -268,7 +268,7 @@ e 21.
 
 {C:/Users/Metex/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./EllipseDi
 agram/EllipseDiagram.pdf>] [2]
-<./AEquation/AEllipseEquations.pdf, id=41, pagebox=cropbox, 612.51834pt x 612.5
+<./AEquation/AEllipseEquations.pdf, id=38, pagebox=cropbox, 612.51834pt x 612.5
 1834pt>
 File: ./AEquation/AEllipseEquations.pdf Graphic file (type pdf)
 <use ./AEquation/AEllipseEquations.pdf>
@@ -277,59 +277,59 @@ Package pdftex.def Info: ./AEquation/AEllipseEquations.pdf  used on input line
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
 e 72.
  [3 <./AEquation/AEllipseEquations.pdf>]
-<./BEquation/BEllipseEquations.pdf, id=100, pagebox=cropbox, 612.51834pt x 612.
-51834pt>
+<./BEquation/BEllipseEquations.pdf, id=97, pagebox=cropbox, 612.51834pt x 612.5
+1834pt>
 File: ./BEquation/BEllipseEquations.pdf Graphic file (type pdf)
 <use ./BEquation/BEllipseEquations.pdf>
 Package pdftex.def Info: ./BEquation/BEllipseEquations.pdf  used on input line 
-78. on input line 78.
+83. on input line 83.
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
-e 78.
+e 83.
  [4 <./BEquation/BEllipseEquations.pdf>]
-<./CEquation/CEllipseEquations.pdf, id=132, pagebox=cropbox, 612.51834pt x 612.
+<./CEquation/CEllipseEquations.pdf, id=129, pagebox=cropbox, 612.51834pt x 612.
 51834pt>
 File: ./CEquation/CEllipseEquations.pdf Graphic file (type pdf)
 <use ./CEquation/CEllipseEquations.pdf>
 Package pdftex.def Info: ./CEquation/CEllipseEquations.pdf  used on input line 
-84. on input line 84.
+94. on input line 94.
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
-e 84.
+e 94.
  [5 <./CEquation/CEllipseEquations.pdf>]
-<./DEquation/DEllipseEquations.pdf, id=167, pagebox=cropbox, 612.51834pt x 612.
+<./DEquation/DEllipseEquations.pdf, id=164, pagebox=cropbox, 612.51834pt x 612.
 51834pt>
 File: ./DEquation/DEllipseEquations.pdf Graphic file (type pdf)
 <use ./DEquation/DEllipseEquations.pdf>
 Package pdftex.def Info: ./DEquation/DEllipseEquations.pdf  used on input line 
-90. on input line 90.
+105. on input line 105.
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
-e 90.
+e 105.
  [6 <./DEquation/DEllipseEquations.pdf>]
-<./EEquation/EEllipseEquations.pdf, id=202, pagebox=cropbox, 612.51834pt x 612.
+<./EEquation/EEllipseEquations.pdf, id=199, pagebox=cropbox, 612.51834pt x 612.
 51834pt>
 File: ./EEquation/EEllipseEquations.pdf Graphic file (type pdf)
 <use ./EEquation/EEllipseEquations.pdf>
 Package pdftex.def Info: ./EEquation/EEllipseEquations.pdf  used on input line 
-97. on input line 97.
+112. on input line 112.
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
-e 97.
+e 112.
  [7 <./EEquation/EEllipseEquations.pdf>]
-<./LEquation/LEllipseEquations.pdf, id=238, pagebox=cropbox, 612.51834pt x 612.
+<./LEquation/LEllipseEquations.pdf, id=235, pagebox=cropbox, 612.51834pt x 612.
 51834pt>
 File: ./LEquation/LEllipseEquations.pdf Graphic file (type pdf)
 <use ./LEquation/LEllipseEquations.pdf>
 Package pdftex.def Info: ./LEquation/LEllipseEquations.pdf  used on input line 
-103. on input line 103.
+123. on input line 123.
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
-e 103.
+e 123.
  [8 <./LEquation/LEllipseEquations.pdf>]
-<./PEquation/PEllipseEquations.pdf, id=270, pagebox=cropbox, 612.51834pt x 612.
+<./PEquation/PEllipseEquations.pdf, id=267, pagebox=cropbox, 612.51834pt x 612.
 51834pt>
 File: ./PEquation/PEllipseEquations.pdf Graphic file (type pdf)
 <use ./PEquation/PEllipseEquations.pdf>
 Package pdftex.def Info: ./PEquation/PEllipseEquations.pdf  used on input line 
-109. on input line 109.
+130. on input line 130.
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
-e 109.
+e 130.
  [9 <./PEquation/PEllipseEquations.pdf>] (main.aux) ) 
 Here is how much of TeX's memory you used:
  2736 strings out of 493312
@@ -338,7 +338,7 @@ Here is how much of TeX's memory you used:
  6227 multiletter control sequences out of 15000+200000
  15386 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,19n,32p,287b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,10n,32p,287b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
@@ -355,9 +355,9 @@ blic/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (9 pages, 244512 bytes).
+Output written on main.pdf (9 pages, 245481 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
+ 336 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

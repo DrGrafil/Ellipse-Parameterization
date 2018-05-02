@@ -52,15 +52,15 @@ The equation that is displayed in the intersection is the function used to deriv
 \section*{$\dagger$ Note On Directrix, $d$, and Semi-Latus Rectum, $\ell$, Equations}
 To solve for the parameters of an ellipse in terms of the Semi-Latus Rectum, $\ell$, and Directrix, $d$ require solving a cubic function in all cases. For example in the case of linear eccentricity, $c$, the roots of the following equation needs to be found:
 \begin{align*} % the "starred" equation environments produce no equation numbers
-c^3-2c^2 d+c d^2-d \ell^2 = 0 
+\sqrt{c^3}-d \sqrt{c} +\ell\sqrt{d} = 0
 \end{align*}
 Solving using the normal general solution to the cubic equation gives a piecewise solution that is daunting to calculate. The results would span longer than the page in some cases.
 Using a trigonometric cubic solution provides a much more manageable solution. However it gives a piecewise solution:
 \begin{align*} 
-c =\begin{cases}
- &  \dfrac{2d}{3}  \left (1 + \text{sin} \left (\frac{\text{arcsin}\left (1 - \frac{27 \ell^2}{2 d^2}\right )}{3} \right ) \right )\\ 
- & \dfrac{4d}{3}  \text{sin}^2 \left (\frac{\text{arccos}\left (1 - \frac{27 \ell^2}{2 d^2}\right )}{6} \right )
-\end{cases}   
+c &=\frac{4x}{3} \sin^2
+  \left(
+    \frac{1}{3} \sin^{-1} \frac{3\sqrt{3}\, \ell}{2x}+\frac{2k\pi}{3}
+  \right),\ k=0,1 
 \end{align*}
 While much more simplified than the general solution, the domain when given as a function of both $d$ and $\ell$ is troublesome to calculate since the switch occurs at $\frac{a}{b}=\sqrt{\frac{2}{3}}$ which when put in terms of $d$ and $\ell$ is ugly.
 \newpage
@@ -70,43 +70,69 @@ While much more simplified than the general solution, the domain when given as a
 \noindent\makebox[\textwidth]{%
 \includegraphics[scale=.95]{./AEquation/AEllipseEquations.pdf}
 }
+\Large{
+$\dagger\ a(d,\ell) =\frac{2d}{\sqrt{3}} \sin
+  \left(
+    \frac{1}{3} \sin^{-1} \frac{3\sqrt{3}\, \ell}{2d}+\frac{2k\pi}{3}
+  \right),\ k=0,1$}
 \newpage
 
 \section*{\centering{Semi-Minor Axis}}
 \noindent\makebox[\textwidth]{%
 \includegraphics[scale=.95]{./BEquation/BEllipseEquations.pdf}
 }
+\Large{
+$\dagger\ b(d,\ell) =\sqrt{\frac{2d\ell}{\sqrt{3}} \sin
+  \left(
+    \frac{1}{3} \sin^{-1} \frac{3\sqrt{3}\, \ell}{2d}+\frac{2k\pi}{3}
+  \right)},\ k=0,1$}
 \newpage
 
 \section*{\centering{Linear Eccentricity}}
 \noindent\makebox[\textwidth]{%
 \includegraphics[scale=.95]{./CEquation/CEllipseEquations.pdf}
 }
+\Large{
+$\dagger\ c(d,\ell) =\frac{4d}{3} \sin^2
+  \left(
+    \frac{1}{3} \sin^{-1} \frac{3\sqrt{3}\, \ell}{2d}+\frac{2k\pi}{3}
+  \right),\ k=0,1$}
 \newpage
 
 \section*{\centering{Directrix}}
 \noindent\makebox[\textwidth]{%
 \includegraphics[scale=.95]{./DEquation/DEllipseEquations.pdf}
 }
-\end{center}
+
 \newpage
 
 \section*{\centering{Eccentricity}}
 \noindent\makebox[\textwidth]{%
 \includegraphics[scale=.95]{./EEquation/EEllipseEquations.pdf}
 }
+\Large{
+$\dagger\ e(d,\ell) =\frac{2}{\sqrt{3}} \left| \sin
+  \left(
+    \frac{1}{3} \sin^{-1} \frac{3\sqrt{3}\, \ell}{2d}+\frac{2k\pi}{3}
+  \right) \right|,\ k=0,1$}
 \newpage
 
 \section*{\centering{Semi-Latus Rectum}}
 \noindent\makebox[\textwidth]{%
 \includegraphics[scale=.95]{./LEquation/LEllipseEquations.pdf}
 }
+
 \newpage
 
 \section*{\centering{Focal Parameter}}
 \noindent\makebox[\textwidth]{%
 \includegraphics[scale=.95]{./PEquation/PEllipseEquations.pdf}
 }
+\Large{
+$\dagger\ p(d,\ell) =d-\frac{4d}{3} \sin^2
+  \left(
+    \frac{1}{3} \sin^{-1} \frac{3\sqrt{3}\, \ell}{2d}+\frac{2k\pi}{3}
+  \right),\ k=0,1$}
 \newpage
-
+\end{center}
 \end{document}
