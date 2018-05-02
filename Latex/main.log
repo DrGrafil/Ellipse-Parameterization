@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  1 MAY 2018 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  1 MAY 2018 17:53
 entering extended mode
 **./main.tex
 (main.tex
@@ -304,13 +304,13 @@ Package pdftex.def Info: ./DEquation/DEllipseEquations.pdf  used on input line
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
 e 90.
  [6 <./DEquation/DEllipseEquations.pdf>]
-<./EEquation/EEllipseEquations.pdf, id=202, pagebox=cropbox, 589.75533pt x 589.
-75533pt>
+<./EEquation/EEllipseEquations.pdf, id=202, pagebox=cropbox, 612.51834pt x 612.
+51834pt>
 File: ./EEquation/EEllipseEquations.pdf Graphic file (type pdf)
 <use ./EEquation/EEllipseEquations.pdf>
 Package pdftex.def Info: ./EEquation/EEllipseEquations.pdf  used on input line 
 97. on input line 97.
-Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
+Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
 e 97.
  [7 <./EEquation/EEllipseEquations.pdf>]
 <./LEquation/LEllipseEquations.pdf, id=238, pagebox=cropbox, 589.75533pt x 589.
@@ -355,7 +355,7 @@ blic/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (9 pages, 242047 bytes).
+Output written on main.pdf (9 pages, 242714 bytes).
 PDF statistics:
  342 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
