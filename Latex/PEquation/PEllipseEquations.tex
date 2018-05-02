@@ -7,15 +7,15 @@
 \newcommand{\tm}[1]{\scriptsize{#1}} %tiny math size
 \begin{document}
 \Large
-\begin{TAB}(e,2.5cm,2.5cm){c|ccccccc}{c|ccccccc}
-\TabPar{p} 		& \TabVar{a}							& \TabVar{b} 							& \TabVar{c} 												& \TabVar{e} 					& \TabVar{\ell} 											& \TabVar{p} 			& \TabVar{x} \\
-\TabVar{a} 		& $-$									& $\dfrac{b^2}{\sqrt{a^2 - b^2}}$ 		& $\dfrac{a^2-c^2}{c}$ 										& $\dfrac{a}{e}(1 - e^2)$ 		& $\sqrt{\dfrac{a\ell^2}{a - \ell}}$ 						& $-$ 					& $-$\\
-\TabVar{b} 		& $\dfrac{b^2}{\sqrt{a^2 - b^2}}$		& $-$ 									& $\dfrac{b^2}{c}$ 											& $\dfrac{b}{e}\sqrt{1 - e^2}$ 	& $\dfrac{b \ell}{\sqrt{b^2 - \ell^2}}$ 					& $-$ 					& $-$\\
-\TabVar{c} 		& $\dfrac{a^2-c^2}{c}$					& $\dfrac{b^2}{c}$ 						& $-$ 														& $\dfrac{c}{e^2}(1 - e^2)$  	& \tm{$\dfrac{\ell^2 +\sqrt{4 c^2 \ell^2+ \ell^4}}{2 c}$} 	& $-$ 					& $-$\\
-\TabVar{e} 		& $\dfrac{a}{e}(1 - e^2)$				& $\dfrac{b}{e}\sqrt{1 - e^2}$ 			& $\dfrac{c}{e^2}(1 - e^2)$ 								& $-$ 							& $\dfrac{\ell}{e}$ 										& $-$ 					& $-$\\
-\TabVar{\ell} 	& $\sqrt{\dfrac{a\ell^2}{a - \ell}}$	& $\dfrac{b \ell}{\sqrt{b^2 - \ell^2}}$ & \tm{$\dfrac{\ell^2 +\sqrt{4 c^2 \ell^2+ \ell^4}}{2 c}$} 	& $\dfrac{\ell}{e}$ 			& $-$ 														& $-$ 					& $-$\\
-\TabVar{p} 		& $-$ 									& $-$					 				& $-$ 														& $-$ 							& $-$ 														& $-$					& $-$\\
-\TabVar{x} 		& $-$ 									& $-$					 				& $-$ 														& $-$ 							& $-$ 														& $-$					& $-$
+\begin{TAB}(e,2.6cm,2.6cm){c|ccccccc}{c|ccccccc}
+\TabPar{p} 		& \TabVar{a}                            & \TabVar{b}                                & \TabVar{c}                                                & \TabVar{d}                                & \TabVar{e}                     & \TabVar{\ell}                                             & \TabVar{p}\\
+\TabVar{a} 		& $-$                                   & $\dfrac{b^2}{\sqrt{a^2 - b^2}}$           & $\dfrac{a^2-c^2}{c}$                                      & $\dfrac{d^2-a^2}{d}$                      & $\dfrac{a}{e}(1 - e^2)$        & $\sqrt{\dfrac{a\ell^2}{a - \ell}}$                        & $-$\\
+\TabVar{b} 		& $\dfrac{b^2}{\sqrt{a^2 - b^2}}$       & $-$                                       & $\dfrac{b^2}{c}$                                          & \tm{$\dfrac{d - \sqrt{d^2-4 b^2}}{2}$}    & $\dfrac{b}{e}\sqrt{1 - e^2}$   & $\dfrac{b \ell}{\sqrt{b^2 - \ell^2}}$                     & $-$\\
+\TabVar{c} 		& $\dfrac{a^2-c^2}{c}$                  & $\dfrac{b^2}{c}$                          & $-$                                                       & $d-c$                                     & $\dfrac{c}{e^2}(1 - e^2)$      & \tm{$\dfrac{\ell^2 +\sqrt{4 c^2 \ell^2+ \ell^4}}{2 c}$}   & $-$\\
+\TabVar{d} 		& $\dfrac{d^2-a^2}{d}$                  & \tm{$\dfrac{d - \sqrt{d^2-4 b^2}}{2}$}    & $d-c$                                                     & $-$                                       & $d(1 - e^2)$                   & \Huge{$\dagger$}                                          & $-$\\
+\TabVar{e} 		& $\dfrac{a}{e}(1 - e^2)$               & $\dfrac{b}{e}\sqrt{1 - e^2}$              & $\dfrac{c}{e^2}(1 - e^2)$                                 & $d(1 - e^2)$                              & $-$                            & $\dfrac{\ell}{e}$                                         & $-$\\
+\TabVar{\ell} 	& $\sqrt{\dfrac{a\ell^2}{a - \ell}}$    & $\dfrac{b \ell}{\sqrt{b^2 - \ell^2}}$     & \tm{$\dfrac{\ell^2 +\sqrt{4 c^2 \ell^2+ \ell^4}}{2 c}$}   & \Huge{$\dagger$}                          & $\dfrac{\ell}{e}$              & $-$                                                       & $-$\\
+\TabVar{p} 		& $-$                                   & $-$                                       & $-$                                                       & $-$                                       & $-$                            & $-$                                                       & $-$
 \end{TAB}	
 \end{document}
 

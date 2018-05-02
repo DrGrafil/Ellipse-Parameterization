@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  30 APR 2018 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  1 MAY 2018 19:23
 entering extended mode
 **./PEllipseEquations.tex
 (PEllipseEquations.tex
@@ -330,13 +330,13 @@ Easytable[row:8,col:8]
 {C:/Users/Metex/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (PEllipseEquations.aux) ) 
 Here is how much of TeX's memory you used:
- 2692 strings out of 493312
- 38299 string characters out of 3138899
- 115546 words of memory out of 3000000
- 6215 multiletter control sequences out of 15000+200000
- 5231 words of font info for 20 fonts, out of 3000000 for 9000
+ 2705 strings out of 493312
+ 38517 string characters out of 3138899
+ 117546 words of memory out of 3000000
+ 6227 multiletter control sequences out of 15000+200000
+ 8645 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,56p,256b,164s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,56p,352b,175s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
@@ -346,7 +346,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb>
-Output written on PEllipseEquations.pdf (1 page, 74947 bytes).
+Output written on PEllipseEquations.pdf (1 page, 76844 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
