@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  1 MAY 2018 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  1 MAY 2018 16:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -277,25 +277,25 @@ Package pdftex.def Info: ./AEquation/AEllipseEquations.pdf  used on input line
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
 e 72.
  [3 <./AEquation/AEllipseEquations.pdf>]
-<./BEquation/BEllipseEquations.pdf, id=100, pagebox=cropbox, 589.75533pt x 589.
-75533pt>
+<./BEquation/BEllipseEquations.pdf, id=100, pagebox=cropbox, 612.51834pt x 612.
+51834pt>
 File: ./BEquation/BEllipseEquations.pdf Graphic file (type pdf)
 <use ./BEquation/BEllipseEquations.pdf>
 Package pdftex.def Info: ./BEquation/BEllipseEquations.pdf  used on input line 
 78. on input line 78.
-Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
+Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
 e 78.
  [4 <./BEquation/BEllipseEquations.pdf>]
-<./CEquation/CEllipseEquations.pdf, id=129, pagebox=cropbox, 589.75533pt x 589.
-75533pt>
+<./CEquation/CEllipseEquations.pdf, id=132, pagebox=cropbox, 612.51834pt x 612.
+51834pt>
 File: ./CEquation/CEllipseEquations.pdf Graphic file (type pdf)
 <use ./CEquation/CEllipseEquations.pdf>
 Package pdftex.def Info: ./CEquation/CEllipseEquations.pdf  used on input line 
 84. on input line 84.
-Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
+Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
 e 84.
  [5 <./CEquation/CEllipseEquations.pdf>]
-<./DEquation/DEllipseEquations.pdf, id=164, pagebox=cropbox, 612.51834pt x 612.
+<./DEquation/DEllipseEquations.pdf, id=167, pagebox=cropbox, 612.51834pt x 612.
 51834pt>
 File: ./DEquation/DEllipseEquations.pdf Graphic file (type pdf)
 <use ./DEquation/DEllipseEquations.pdf>
@@ -304,7 +304,7 @@ Package pdftex.def Info: ./DEquation/DEllipseEquations.pdf  used on input line
 Package pdftex.def Info: Requested size: 581.88913pt x 581.88913pt on input lin
 e 90.
  [6 <./DEquation/DEllipseEquations.pdf>]
-<./EEquation/EEllipseEquations.pdf, id=199, pagebox=cropbox, 589.75533pt x 589.
+<./EEquation/EEllipseEquations.pdf, id=202, pagebox=cropbox, 589.75533pt x 589.
 75533pt>
 File: ./EEquation/EEllipseEquations.pdf Graphic file (type pdf)
 <use ./EEquation/EEllipseEquations.pdf>
@@ -313,7 +313,7 @@ Package pdftex.def Info: ./EEquation/EEllipseEquations.pdf  used on input line
 Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
 e 97.
  [7 <./EEquation/EEllipseEquations.pdf>]
-<./LEquation/LEllipseEquations.pdf, id=235, pagebox=cropbox, 589.75533pt x 589.
+<./LEquation/LEllipseEquations.pdf, id=238, pagebox=cropbox, 589.75533pt x 589.
 75533pt>
 File: ./LEquation/LEllipseEquations.pdf Graphic file (type pdf)
 <use ./LEquation/LEllipseEquations.pdf>
@@ -322,7 +322,7 @@ Package pdftex.def Info: ./LEquation/LEllipseEquations.pdf  used on input line
 Package pdftex.def Info: Requested size: 560.26437pt x 560.26437pt on input lin
 e 103.
  [8 <./LEquation/LEllipseEquations.pdf>]
-<./PEquation/PEllipseEquations.pdf, id=267, pagebox=cropbox, 589.75533pt x 589.
+<./PEquation/PEllipseEquations.pdf, id=270, pagebox=cropbox, 589.75533pt x 589.
 75533pt>
 File: ./PEquation/PEllipseEquations.pdf Graphic file (type pdf)
 <use ./PEquation/PEllipseEquations.pdf>
@@ -355,9 +355,9 @@ blic/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (9 pages, 238677 bytes).
+Output written on main.pdf (9 pages, 242047 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
+ 342 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,6 @@
 \documentclass[border=10pt]{standalone}
 \usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
 \begin{document}
  \begin{tikzpicture}[scale=3]
  %\draw[step=.5cm, gray, very thin] (-1.7,-1.2) grid (1.7,1.2); 
@@ -22,6 +23,9 @@
  
  \filldraw (1.118,0) circle (.75pt) node[align=left,   below] {\large{Focus}};
  \filldraw (-1.118,0) circle (.75pt) node[align=left,   below] {\large{Focus}};
- \filldraw (2.0125,0) circle (.75pt) node[align=left,   below right = 2pt] {\Large{$x$}};
+ \draw [decorate,decoration={brace,amplitude=27.5pt,mirror,raise=2.5pt}]
+(0cm,0cm) -- (2.0125,0cm) node [black,midway, below = 30pt] {\Large{$d$}};
+ \filldraw (2.0125,0) circle (.75pt) node[align=left,   below right = 1pt] {};
+ \filldraw (0,0) circle (.75pt) node[align=left,   below left = 2pt] {\large{$(0,0)$}};
  \end{tikzpicture}
 \end{document}
